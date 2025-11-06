@@ -1,0 +1,81 @@
+.album-web {
+  background: rgb(255, 251, 251);
+  text-align: center;
+}
+
+.page {
+  box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
+}
+
+.cover {
+  background-color: rgb(251, 225, 139);
+  box-shadow: 0 1.5em 3em -1em rgb(70, 69, 69);
+}
+
+
+/* 1. Yapıştırılmış Resim Efekti (Gölge ve Konumlandırma) */
+.page-image-effect {
+  position: relative; /* Bantları konumlandırmak için gerekli */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(0, 0, 0, 0.1);
+  border: 10px solid black;
+  transition: transform 0.3s ease-in-out;
+  overflow: visible; 
+  z-index: 1; 
+}
+
+/* 2. Bant Efekti: ::before (Sol Üst Bant) ve ::after (Sağ Üst Bant) */
+.page-image-effect::before,
+.page-image-effect::after {
+  content: "";
+  position: absolute;
+  width: 100px; /* Bant uzunluğu */
+  height: 20px; /* Bant kalınlığı */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+  z-index: 10; 
+  border-radius: 2px;
+  
+  display: block; 
+}
+
+/* Sol Üst Bant (Sarımsı) */
+.page-image-effect::before {
+  top: -10px;
+  left: -20px;
+  transform: rotate(-10deg); 
+  background-color: rgba(255, 230, 100, 0.7); 
+}
+
+/* Sağ Üst Bant (Mavimsi) */
+.page-image-effect::after {
+  top: -10px;
+  right: -20px;
+  transform: rotate(12deg); 
+  background-color: rgba(150, 220, 255, 0.7); 
+}
+
+/* 3. Rastgele Dönüş Sınıfları (Elle Yapıştırılmış Hissi) */
+.page-image-effect.rotate-1 {
+  transform: rotate(-0.5deg);
+}
+.page-image-effect.rotate-2 {
+  transform: rotate(0.8deg);
+}
+.page-image-effect.rotate-3 {
+  transform: rotate(-1.2deg);
+}
+.page-image-effect.rotate-4 {
+  transform: rotate(0.6deg);
+}
+
+
+.student-cover-font {
+  font-family: 'Bebas Neue', sans-serif; 
+  letter-spacing: 2px;
+}
+
+.handwriting-font {
+  font-family: 'Comic Sans MS', 'Arial Black', sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.7), -1px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
