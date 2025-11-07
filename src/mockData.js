@@ -1,5 +1,7 @@
 import deniz from "./assets/deniz.jpeg";
 import deniz2 from "./assets/deniz2.jpeg";
+import deniz1 from "./assets/deniz1.jpeg";
+import deniz3 from "./assets/deniz3.jpeg";
 import sude from "./assets/sude.jpeg";
 import sude1 from "./assets/sude1.jpeg";
 import sude2 from "./assets/sude2.jpeg";
@@ -162,18 +164,18 @@ export const studentBooks = {
     {
       gender: "male",
       image: deniz,
-      leftImage: deniz2,
+      leftImage: deniz1,
       rightText:
         "Bu fotoğraf okulun ilk günüydü... Sizinle ilk kez tanıştım öğretmenim. Biraz heyecanlıydım ama yüzünüzdeki gülümseme her şeyi kolaylaştırdı. 💛",
     },
     {
-      leftImage: "https://picsum.photos/seed/deniz2/500/650",
+      leftImage: deniz2,
       rightText:
-        "Her zaman paylaşımcıydı, arkadaşlarına yardım etmekten keyif alırdı.",
+        "Kuşlar için yem yaparken, bana doğayı ne kadar sevmem gerektiğini gösterdiniz. 🌲 Minicik bir kuşun karnını doyurmak ne kadar da keyifliymiş 🐦... Sizinle geçirdiğim her an, kalbime yeni bir güzellik katıyor. İyi ki varsınız... ",
     },
     {
-      leftImage: "https://picsum.photos/seed/deniz3/500/650",
-      rightText: "Sessiz gücüyle kalplerde yer eden bir dost oldu.",
+      leftImage: deniz3,
+      rightText: "Sadece oyun oynamayı ve boyamayı değil; sevmeyi, saygı duymayı ve Ata'mızın yolundan gitmeyi de sizden öğrendim. 🇹🇷 Bana öğrettiğiniz her şey için teşekkür ederim. ❤️",
     },
   ],
 
@@ -217,54 +219,54 @@ export const studentBooks = {
 
   "Müberra Zişan Taşbulut": [
     {
-      gender: "female", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/muberra1/500/650",
-      rightText: "Müberra Zişan, tatlı sesiyle sınıfın neşe kaynağıydı.",
+      gender: "female", 
+      leftImage: "",
+      rightText: "",
     },
     {
-      leftImage: "https://picsum.photos/seed/muberra2/500/650",
+      leftImage: "",
       rightText:
-        "Her etkinlikte en çok çabalayan, elinden gelenin fazlasını yapan bir öğrenciydi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/muberra3/500/650",
+      leftImage: "",
       rightText:
-        "Kalbi kocaman, yüzü hep gülen bir arkadaş olarak hatırlanacak.",
+        "",
     },
   ],
 
   "Masal Çekiç": [
     {
-      gender: "female", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/masal1/500/650",
+      gender: "female",
+      leftImage: "",
       rightText:
-        "Masal, adını gibi masalsı bir öğrenciydi. Hayal gücüyle herkesi etkilerdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/masal2/500/650",
+      leftImage: "",
       rightText:
-        "Renkleri ve kelimeleri öyle güzel birleştirirdi ki, herkes hayran kalırdı.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/masal3/500/650",
-      rightText: "Sınıfın küçük sanatçısı olarak hep hatırlanacak.",
+      leftImage: "",
+      rightText: "",
     },
   ],
 
   "Kuzey Efe Çevik": [
     {
-      gender: "male", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/kuzeyefe1/500/650",
-      rightText: "Kuzey Efe, enerjisi ve merakıyla sınıfta fark yaratırdı.",
+      gender: "male",
+      leftImage: "",
+      rightText: "",
     },
     {
-      leftImage: "https://picsum.photos/seed/kuzeyefe2/500/650",
+      leftImage: "",
       rightText:
-        "Her zaman yeni bir şey öğrenmeye istekliydi, özellikle bilmece çözmeyi çok severdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/kuzeyefe3/500/650",
-      rightText: "Arkadaşlarına karşı kibar ve düşünceli bir kalbe sahipti.",
+      leftImage: "",
+      rightText: "",
     },
   ],
 
@@ -293,32 +295,32 @@ export const studentBooks = {
       rightText: "",
     },
     {
-      leftImage: "https://picsum.photos/seed/omerhalid2/500/650",
+      leftImage: "",
       rightText:
-        "Zekası ve merakıyla dikkat çekerdi, sorularıyla derin düşüncelere yol açardı.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/omerhalid3/500/650",
+      leftImage: "",
       rightText:
-        "Her zaman güler yüzlü, sevgi dolu bir öğrenci olarak anılacak.",
+        "",
     },
   ],
 
   "Bahar Eva Türkyılmaz": [
     {
-      gender: "female", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/bahareva1/500/650",
+      gender: "female", 
+      leftImage: "",
       rightText:
-        "Bahar Eva, pastel renklerle yaptığı çiçek resimleriyle herkesi büyülerdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/bahareva2/500/650",
+      leftImage: "",
       rightText:
-        "Sınıfa getirdiği küçük bitkilerden biri hâlâ öğretmen masasını süslüyor.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/bahareva3/500/650",
-      rightText: "Her zaman sıcak, içten ve sevgi dolu bir öğrenciydi.",
+      leftImage: "",
+      rightText: "",
     },
   ],
 };
