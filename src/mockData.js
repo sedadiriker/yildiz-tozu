@@ -4,133 +4,157 @@ import sude from "./assets/sude.jpeg";
 import sude1 from "./assets/sude1.jpeg";
 import sude2 from "./assets/sude2.jpeg";
 import sude3 from "./assets/sude3.jpeg";
+import eflin from "./assets/eflin.jpeg";
+import eflin1 from "./assets/eflin1.jpeg";
+import eflin2 from "./assets/eflin2.jpeg";
+import eflin3 from "./assets/eflin3.jpeg";
 
 export const studentBooks = {
-  Ala: [
+  "Ala Başkurt": [
     {
       gender: "female",
-      leftImage: "https://picsum.photos/seed/ala1/500/650",
+      leftImage: "",
       rightText:
-        "Ala, sınıfta her zaman neşesiyle dikkat çekerdi. En sevdiği ders resimdi ve renklerle oynamayı çok severdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/ala2/500/650",
+      leftImage: "",
       rightText:
-        "Teneffüslerde arkadaşlarına kalpler çizer, defterini renkli çıkartmalarla süslerdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/ala3/500/650",
+      leftImage: "",
       rightText:
-        "Ala’nın kahkahası sınıfın en tatlı seslerinden biriydi, herkesin yüzünü güldürürdü.",
+        "",
     },
   ],
 
-  Almira: [
+  "Almira Baysal": [
     {
-      gender: "female", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/almira1/500/650",
+      gender: "female",
+      leftImage: "",
       rightText:
-        "Almira, sessiz ama derin düşünen bir öğrenciydi. Her zaman dikkatle dinlerdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/almira2/500/650",
-      rightText: "Defterinde küçük çiçekler çizer, yazısını özenle süslerdi.",
+      leftImage: "",
+      rightText: "",
     },
     {
-      leftImage: "https://picsum.photos/seed/almira3/500/650",
+      leftImage: "",
       rightText:
-        "Arkadaşlarına her zaman yardım eder, tatlı gülümsemesiyle herkesi mutlu ederdi.",
+        "",
     },
   ],
 
-  "Rüya Nadia": [
+  "Rüya Nadia Temiz": [
     {
-      gender: "female", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/ruyanadia1/500/650",
+      gender: "female", 
+      leftImage: "",
       rightText:
-        "Rüya Nadia, hayal gücüyle herkesi büyülerdi. Hikayeleri sanki bir masaldan çıkmış gibiydi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/ruyanadia2/500/650",
+      leftImage: "0",
       rightText:
-        "Sınıf etkinliklerinde her zaman yaratıcı fikirleriyle ön plandaydı.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/ruyanadia3/500/650",
+      leftImage: "",
       rightText:
-        "Rüya gibi bir öğrenci... Her zaman içten, neşeli ve sevgi doluydu.",
+        "",
     },
   ],
 
-  "Metehan Mehmet": [
+  "Metehan Mehmet Sığanık": [
     {
-      gender: "male", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/metehan1/500/650",
+      gender: "male", 
+      leftImage: "",
       rightText:
-        "Metehan, enerjisiyle sınıfa neşe katardı. Her teneffüs top oynamayı çok severdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/metehan2/500/650",
+      leftImage: "",
       rightText:
-        "Bir gün derste kendi hikayesini yazıp okudu, herkes alkışladı.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/metehan3/500/650",
-      rightText: "Her zaman pozitif, yardımsever ve enerjik bir arkadaş oldu.",
+      leftImage: "",
+      rightText: "",
     },
   ],
 
-  Irmak: [
+  "Irmak Çetin": [
     {
-      gender: "female", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/irmak1/500/650",
+      gender: "female", 
+      leftImage: "",
       rightText:
-        "Irmak, adını gibi sakin ve zarifti. Boya kalemleriyle harikalar yaratırdı.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/irmak2/500/650",
+      leftImage: "",
       rightText:
-        "Sınıf projelerinde düzeni seven biri olarak herkesin yardımına koşardı.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/irmak3/500/650",
+      leftImage: "",
       rightText:
-        "Her zaman güler yüzlü ve sevecen tavırlarıyla kalplerde yer etti.",
+        "",
     },
   ],
 
-  "Mehmet Emir": [
+  "Eflin Karagören": [
     {
-      gender: "male", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/mehmetemir1/500/650",
+      gender: "female", 
+      image: eflin,
+      leftImage: eflin1,
       rightText:
-        "Mehmet Emir meraklı bir öğrenciydi. Her konuyu derinlemesine anlamak isterdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/mehmetemir2/500/650",
+      leftImage: eflin2,
       rightText:
-        "Sınıfta sık sık arkadaşlarına yeni şeyler öğretirdi, özellikle fen dersinde parlayan bir yıldızdı.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/mehmetemir3/500/650",
-      rightText: "Neşeli haliyle herkesin yüzünde gülümse bırakırdı.",
+      leftImage: eflin3,
+      rightText:
+        "",
     },
   ],
 
-  Aybars: [
+  "Mehmet Emir Çetin": [
     {
-      gender: "male", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/aybars1/500/650",
+      gender: "male", 
+      leftImage: "",
       rightText:
-        "Aybars, enerjik ve eğlenceli bir öğrenciydi. Her zaman keşfetmeye meraklıydı.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/aybars2/500/650",
-      rightText: "Sınıfta yeni fikirler bulur, oyunlar üretirdi.",
+      leftImage: "",
+      rightText:
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/aybars3/500/650",
-      rightText: "Herkesin sevdiği, güleryüzlü bir arkadaş olarak anılacak.",
+      leftImage: "",
+      rightText: "",
+    },
+  ],
+
+  "Aybars Çetin": [
+    {
+      gender: "male", 
+      leftImage: "",
+      rightText:
+        "",
+    },
+    {
+      leftImage: "",
+      rightText: "",
+    },
+    {
+      leftImage: "",
+      rightText: "",
     },
   ],
 
@@ -153,45 +177,45 @@ export const studentBooks = {
     },
   ],
 
-  Poyraz: [
+  "Poyraz Becit": [
     {
-      gender: "male", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/poyraz1/500/650",
+      gender: "male", 
+      leftImage: "",
       rightText:
-        "Poyraz, hareketli ve enerjik bir öğrenciydi. Sınıfa girdiğinde enerji yükselirdi.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/poyraz2/500/650",
+      leftImage: "",
       rightText:
-        "Her teneffüs yeni bir macera bulurdu. Gülüşleri hâlâ koridorlarda yankılanıyor.",
+        "",
     },
     {
-      leftImage: "https://picsum.photos/seed/poyraz3/500/650",
+      leftImage: "",
       rightText:
-        "Arkadaş canlısı ve neşeli haliyle herkesin kalbinde yer etti.",
-    },
-  ],
-
-  Ece: [
-    {
-      gender: "female", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/ece1/500/650",
-      rightText:
-        "Ece, zarif ve dikkatli bir öğrenciydi. Her ödevini titizlikle yapardı.",
-    },
-    {
-      leftImage: "https://picsum.photos/seed/ece2/500/650",
-      rightText:
-        "Sınıfta yeni fikirler sunmaktan çekinmezdi, yaratıcı yönü çok güçlüydü.",
-    },
-    {
-      leftImage: "https://picsum.photos/seed/ece3/500/650",
-      rightText:
-        "Nazik tavırlarıyla hem arkadaşlarının hem öğretmenlerinin sevgisini kazandı.",
+        "",
     },
   ],
 
-  "Müberra Zişan": [
+  "Ece Sürücü": [
+    {
+      gender: "female", 
+      leftImage: "",
+      rightText:
+        "",
+    },
+    {
+      leftImage: "",
+      rightText:
+        "",
+    },
+    {
+      leftImage: "",
+      rightText:
+        "",
+    },
+  ],
+
+  "Müberra Zişan Taşbulut": [
     {
       gender: "female", // <--- Cinsiyet Eklendi
       leftImage: "https://picsum.photos/seed/muberra1/500/650",
@@ -209,7 +233,7 @@ export const studentBooks = {
     },
   ],
 
-  Masal: [
+  "Masal Çekiç": [
     {
       gender: "female", // <--- Cinsiyet Eklendi
       leftImage: "https://picsum.photos/seed/masal1/500/650",
@@ -227,7 +251,7 @@ export const studentBooks = {
     },
   ],
 
-  "Kuzey Efe": [
+  "Kuzey Efe Çevik": [
     {
       gender: "male", // <--- Cinsiyet Eklendi
       leftImage: "https://picsum.photos/seed/kuzeyefe1/500/650",
@@ -262,11 +286,11 @@ export const studentBooks = {
     },
   ],
 
-  "Ömer Halid": [
+  "Ömer Halid Çamurcu": [
     {
-      gender: "male", // <--- Cinsiyet Eklendi
-      leftImage: "https://picsum.photos/seed/omerhalid1/500/650",
-      rightText: "Ömer Halid, neşesiyle sınıfın enerjisini hep yükseltirdi.",
+      gender: "male", 
+      leftImage: "",
+      rightText: "",
     },
     {
       leftImage: "https://picsum.photos/seed/omerhalid2/500/650",
@@ -280,7 +304,7 @@ export const studentBooks = {
     },
   ],
 
-  "Bahar Eva": [
+  "Bahar Eva Türkyılmaz": [
     {
       gender: "female", // <--- Cinsiyet Eklendi
       leftImage: "https://picsum.photos/seed/bahareva1/500/650",
