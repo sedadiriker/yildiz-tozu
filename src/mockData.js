@@ -18,33 +18,18 @@ import ece4 from "./assets/ece4.jpeg";
 import ırmak from "./assets/ırmak.jpeg";
 import ırmak1 from "./assets/ırmak1.jpeg";
 import ırmak2 from "./assets/ırmak2.jpeg";
+import poyraz from "./assets/poyraz.jpeg";
+import poyraz1 from "./assets/poyraz1.jpeg";
+import poyraz2 from "./assets/poyraz2.jpeg";
+import poyraz3 from "./assets/poyraz3.jpeg";
+import poyraz4 from "./assets/poyraz4.jpeg";
 
 export const studentBooks = {
   "Ala Başkurt": [
     {
       gender: "female",
       leftImage: "",
-      rightText:
-        "",
-    },
-    {
-      leftImage: "",
-      rightText:
-        "",
-    },
-    {
-      leftImage: "",
-      rightText:
-        "",
-    },
-  ],
-
-  "Almira Baysal": [
-    {
-      gender: "female",
-      leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
@@ -52,41 +37,51 @@ export const studentBooks = {
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
+    },
+  ],
+
+  "Almira Baysal": [
+    {
+      gender: "female",
+      leftImage: "",
+      rightText: "",
+    },
+    {
+      leftImage: "",
+      rightText: "",
+    },
+    {
+      leftImage: "",
+      rightText: "",
     },
   ],
 
   "Rüya Nadia Temiz": [
     {
-      gender: "female", 
+      gender: "female",
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "0",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
   ],
 
   "Metehan Mehmet Sığanık": [
     {
-      gender: "male", 
+      gender: "male",
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
@@ -96,50 +91,44 @@ export const studentBooks = {
 
   "Irmak Çetin": [
     {
-      gender: "female", 
-      image:ırmak,
+      gender: "female",
+      image: ırmak,
       leftImage: ırmak1,
       rightText:
         "Hayatta en büyük şans küçükken iyi bir öğretmene rastlamaktır... ",
     },
     {
       leftImage: ırmak2,
-      rightText:
-        "Öğretmenler gününüz kutlu olsun öğretmenim ❤️",
+      rightText: "Öğretmenler gününüz kutlu olsun öğretmenim ❤️",
     },
   ],
 
   "Eflin Karagören": [
     {
-      gender: "female", 
+      gender: "female",
       image: eflin,
       leftImage: eflin1,
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: eflin2,
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: eflin3,
-      rightText:
-        "",
+      rightText: "",
     },
   ],
 
   "Mehmet Emir Çetin": [
     {
-      gender: "male", 
+      gender: "male",
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
@@ -149,10 +138,9 @@ export const studentBooks = {
 
   "Aybars Çetin": [
     {
-      gender: "male", 
+      gender: "male",
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
@@ -179,32 +167,35 @@ export const studentBooks = {
     },
     {
       leftImage: deniz3,
-      rightText: "Sadece oyun oynamayı ve boyamayı değil; sevmeyi, saygı duymayı ve Ata'mızın yolundan gitmeyi de sizden öğrendim. 🇹🇷 Bana öğrettiğiniz her şey için teşekkür ederim. ❤️",
+      rightText:
+        "Sadece oyun oynamayı ve boyamayı değil; sevmeyi, saygı duymayı ve Ata'mızın yolundan gitmeyi de sizden öğrendim. 🇹🇷 Bana öğrettiğiniz her şey için teşekkür ederim. ❤️",
     },
   ],
 
   "Poyraz Becit": [
     {
-      gender: "male", 
-      leftImage: "",
-      rightText:
-        "",
+      gender: "male",
+      image:poyraz,
+      leftImage: poyraz1,
+      rightText: "Okula geldim… Biraz çekingen, biraz meraklı… Ama poz vermeye gelince tam profesyonelim!",
     },
     {
-      leftImage: "",
-      rightText:
-        "",
+      leftImage: poyraz2,
+      rightText: "Gösteriye çıkmadım ama pozumla günü kurtardım. Cumhuriyet coşkusunu fotoğrafta yaşadım!",
     },
     {
-      leftImage: "",
-      rightText:
-        "",
+      leftImage: poyraz3,
+      rightText: "Öğretmenimle ilk fotoğrafım… Her zaman gülerim ama bugün saygı duruşundayım. Bana bu özel günleri anlamayı öğrettiğiniz için teşekkür ederim.",
+    },
+    {
+      leftImage: poyraz4,
+      rightText: "Müziği duydum, Poyraz modu açıldı! Dans ederken dünyayı unutuyorum.",
     },
   ],
 
   "Ece Sürücü": [
     {
-      gender: "female", 
+      gender: "female",
       image: ece,
       leftImage: ece1,
       rightText:
@@ -229,19 +220,17 @@ export const studentBooks = {
 
   "Müberra Zişan Taşbulut": [
     {
-      gender: "female", 
+      gender: "female",
       leftImage: "",
       rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
   ],
 
@@ -249,13 +238,11 @@ export const studentBooks = {
     {
       gender: "female",
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
@@ -271,8 +258,7 @@ export const studentBooks = {
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
@@ -290,43 +276,41 @@ export const studentBooks = {
     },
     {
       leftImage: sude2,
-      rightText: "Size bakınca aklıma en sevdiğim renkler geliyor öğretmenim bu renkleri bana öğrettiğiniz için teşekkür ederim. 🎨",
+      rightText:
+        "Size bakınca aklıma en sevdiğim renkler geliyor öğretmenim bu renkleri bana öğrettiğiniz için teşekkür ederim. 🎨",
     },
     {
       leftImage: sude3,
-      rightText: "Sevgili Öğretmenimiz,Geleceğin mimarları olarak hayatımıza dokunan, gözümüzden sakındığımız biricik evlatlarımızı kendi evladınız gibi sahiplendiğiniz her güne minnettarız. Emekleriniz için sonsuz teşekkürler. 💖📚",
+      rightText:
+        "Sevgili Öğretmenimiz,Geleceğin mimarları olarak hayatımıza dokunan, gözümüzden sakındığımız biricik evlatlarımızı kendi evladınız gibi sahiplendiğiniz her güne minnettarız. Emekleriniz için sonsuz teşekkürler. 💖📚",
     },
   ],
 
   "Ömer Halid Çamurcu": [
     {
-      gender: "male", 
+      gender: "male",
       leftImage: "",
       rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
   ],
 
   "Bahar Eva Türkyılmaz": [
     {
-      gender: "female", 
+      gender: "female",
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
-      rightText:
-        "",
+      rightText: "",
     },
     {
       leftImage: "",
