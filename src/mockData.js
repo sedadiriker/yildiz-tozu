@@ -15,6 +15,9 @@ import ece1 from "./assets/ece1.jpeg";
 import ece2 from "./assets/ece2.jpeg";
 import ece3 from "./assets/ece3.jpeg";
 import ece4 from "./assets/ece4.jpeg";
+import ırmak from "./assets/ırmak.jpeg";
+import ırmak1 from "./assets/ırmak1.jpeg";
+import ırmak2 from "./assets/ırmak2.jpeg";
 
 export const studentBooks = {
   "Ala Başkurt": [
@@ -94,19 +97,15 @@ export const studentBooks = {
   "Irmak Çetin": [
     {
       gender: "female", 
-      leftImage: "",
+      image:ırmak,
+      leftImage: ırmak1,
       rightText:
-        "",
+        "Hayatta en büyük şans küçükken iyi bir öğretmene rastlamaktır... ",
     },
     {
-      leftImage: "",
+      leftImage: ırmak2,
       rightText:
-        "",
-    },
-    {
-      leftImage: "",
-      rightText:
-        "",
+        "Öğretmenler gününüz kutlu olsun öğretmenim ❤️",
     },
   ],
 
