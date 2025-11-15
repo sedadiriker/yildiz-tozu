@@ -10,6 +10,11 @@ import eflin from "./assets/eflin.jpeg";
 import eflin1 from "./assets/eflin1.jpeg";
 import eflin2 from "./assets/eflin2.jpeg";
 import eflin3 from "./assets/eflin3.jpeg";
+import ece from "./assets/ece.jpeg";
+import ece1 from "./assets/ece1.jpeg";
+import ece2 from "./assets/ece2.jpeg";
+import ece3 from "./assets/ece3.jpeg";
+import ece4 from "./assets/ece4.jpeg";
 
 export const studentBooks = {
   "Ala Başkurt": [
@@ -201,19 +206,25 @@ export const studentBooks = {
   "Ece Sürücü": [
     {
       gender: "female", 
-      leftImage: "",
+      image: ece,
+      leftImage: ece1,
       rightText:
-        "",
+        "Okulun ilk günüydü, çok heyecanlanmıştım çok da korkmuştum. Annemden ayrılmak istemiyordum, okul çok kalabalıktı. Sizi görünce öğretmenim, bütün korkum gitti. Anne değil anne gibi... Baba değil baba gibi... İçimi ısıttın... Seni çok seviyorum öğretmenim. 💖",
     },
     {
-      leftImage: "",
+      leftImage: ece2,
       rightText:
-        "",
+        "Öğretmenim bilir misin,  seni nasıl sevdiğimi... Sorsan bana nerde yerim, gösteririm ben kalbimi ❤️",
     },
     {
-      leftImage: "",
+      leftImage: ece3,
       rightText:
-        "",
+        "Öğretmenim sen çok tatlısın sanki çilekli pastasın... Gözlerin çilek yanakların krema öperim seni doya doya... Çok güzelsin canım öğretmenim 🌸",
+    },
+    {
+      leftImage: ece4,
+      rightText:
+        "Evladımı teslim ettiğim, arkamı döndüğümde şefkatine güvendiğim, heybede ne varsa en güzelini vereceğine eminim... Sevgin, merhametin ve en önemlisi emeğin için teşekkür ederim... Öğretmenler günün kutlu olsun Tuba hanım",
     },
   ],
 

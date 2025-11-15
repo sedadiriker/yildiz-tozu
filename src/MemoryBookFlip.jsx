@@ -232,7 +232,7 @@ export default function MemoryBookFlip({ selectedStudent, pages, onClose }) {
                       <TypingText
                         text={page.rightText}
                         delay={60}
-                        className="text-gray-800 text-sm sm:text-base md:text-lg text-center leading-relaxed"
+                        className="text-gray-800 text-sm sm:text-base md:text-lg text-center leading-relaxed whitespace-pre-wrap"
                       />
                     </div>
                     <p
