@@ -23,6 +23,15 @@ import poyraz1 from "./assets/poyraz1.jpeg";
 import poyraz2 from "./assets/poyraz2.jpeg";
 import poyraz3 from "./assets/poyraz3.jpeg";
 import poyraz4 from "./assets/poyraz4.jpeg";
+import bahar from "./assets/bahar.jpeg";
+import bahar1 from "./assets/bahar1.jpeg";
+import bahar2 from "./assets/bahar2.jpeg";
+import bahar3 from "./assets/bahar3.jpeg";
+import bahar4 from "./assets/bahar4.jpeg";
+import rüya from "./assets/rüya.jpeg";
+import rüya1 from "./assets/rüya1.jpeg";
+import rüya2 from "./assets/rüya2.jpeg";
+import rüya3 from "./assets/rüya3.jpeg";
 
 export const studentBooks = {
   "Ala Başkurt": [
@@ -60,16 +69,17 @@ export const studentBooks = {
   "Rüya Nadia Temiz": [
     {
       gender: "female",
-      leftImage: "",
-      rightText: "",
+      image:rüya,
+      leftImage: rüya1,
+      rightText: "İlk gülüş ilk sarılma ve ilk pozumuz , her şey içten bir gülümseme ile başladı...",
     },
     {
-      leftImage: "0",
-      rightText: "",
+      leftImage: rüya2,
+      rightText: "Kendi dünyamızda 🌞 ve 🌛ne ise yıldızlarda bize bir derinlik katar .Sınıfımızın  ismini seçerken bize Yıldız Tozu 💫dediniz güzel öğretmenimiz ne güzel hatırlattınız 💞",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: rüya3,
+      rightText: "💞Yıldızlar  her daim birbirine ışık olmak için varlar , Rüya Nadia ile bir Tuğba hikayesi için biz hazırız iyi ki öğretmenimizsiniz✨✨✨",
     },
   ],
 
@@ -305,16 +315,21 @@ export const studentBooks = {
   "Bahar Eva Türkyılmaz": [
     {
       gender: "female",
-      leftImage: "",
+      image:bahar,
+      leftImage: bahar1,
+      rightText: "Canım öğretmenim sizden bir şeyler öğrendiğim için çok şanslıyım",
+    },
+    {
+      leftImage: bahar2,
       rightText: "",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: bahar3,
+      rightText: "Bu anlamlı günü sizin sayenizde öğrendim öğretmenim",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: bahar4,
+      rightText: "Canım öğretmenim öğretmenler gününüz kutlu olsun",
     },
   ],
 };
