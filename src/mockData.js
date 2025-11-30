@@ -50,6 +50,7 @@ import ala1 from "./assets/ala1.jpeg";
 import ala2 from "./assets/ala2.jpeg";
 import ala3 from "./assets/ala3.jpeg";
 import ala4 from "./assets/ala4.jpeg";
+import almira from "./assets/almira.jpeg";
 import almira1 from "./assets/almira1.jpeg";
 import almira2 from "./assets/almira2.jpeg";
 import almira3 from "./assets/almira3.jpeg";
@@ -81,7 +82,7 @@ export const studentBooks = {
   "Almira Baysal": [
     {
       gender: "female",
-      image:almira1,
+      image:almira,
       leftImage: almira1,
       rightText: "Tuğba öğretmenim sizinle ilk tanıştığım gün, sizi tanıyacağım için çok heyecanlıydım. Ve sizi çok merak ediyordum. Sizi gördüğümde tanıştığımda o kadar çok mutlu oldum ki. Herkese sizi anlattım. Yaşasın artık benim de öğretmenim var. Hem de en güzel öğretmen...",
     },
