@@ -191,64 +191,7 @@ export const studentBooks = {
       image: aybars,
       leftImage: aybars,
       rightText: "Merhaba öğretmenim sizin için arkadaşlarımla bir sürpriz hazırladık burda sizle ilgili duygularımı paylaşmak istiyorum ve öğretmenler gününüzü kutlamak istiyorum 😊",
-    },{students.map((student, index) => {
-        const gender = studentBooks[student]?.[0]?.gender;
-
-        // Cinsiyete göre rengi belirle (Tailwind sınıfları)
-        let starColorClass;
-        let shadowColorClass;
-
-        if (gender === "female") {
-          starColorClass = "text-pink-300";
-          shadowColorClass = "drop-shadow-[0_0_8px_rgba(255,192,203,0.7)]"; // Pembe gölge
-        } else if (gender === "male") {
-          starColorClass = "text-cyan-300";
-          shadowColorClass = "drop-shadow-[0_0_8px_rgba(0,255,255,0.7)]"; // Mavi gölge
-        } else {
-          // Cinsiyet tanımlanmamışsa varsayılan sarı
-          starColorClass = "text-yellow-300";
-          shadowColorClass = "drop-shadow-[0_0_8px_rgba(255,255,0,0.7)]";
-        }
-
-        // Yıldız hareket animasyonu için benzersiz bir delay
-        const delay = 4 + Math.random() * 2;
-
-        return (
-          <motion.div
-            key={student} // Key olarak öğrenci ismini kullanmak daha güvenlidir
-            className="absolute cursor-pointer select-none flex items-center justify-center w-[70px] h-[70px] sm:w-[90px] sm:h-[90px]"
-            style={{
-              top: `${positions[index].top}%`,
-              left: `${positions[index].left}%`,
-              transform: "translate(-50%, -50%)",
-            }}
-            initial={{ opacity: 0, scale: 0.5, y: 30 }}
-            animate={{
-              opacity: 1,
-              scale: [1, 1.2, 1],
-              y: [0, 10 * Math.cos(index), 0],
-              x: [0, 10 * Math.sin(index), 0],
-            }}
-            transition={{
-              opacity: { delay: index * 0.2, duration: 0.8 },
-              scale: { repeat: Infinity, duration: delay, ease: "easeInOut" },
-              y: { repeat: Infinity, duration: delay, ease: "easeInOut" },
-              x: { repeat: Infinity, duration: delay, ease: "easeInOut" },
-            }}
-            onClick={() => openStudentBook(student)}
-          >
-            {/* Dinamik renk sınıfı atandı */}
-            <span
-              className={`absolute text-7xl sm:text-9xl ${starColorClass} ${shadowColorClass}`}
-            >
-              ★
-            </span>
-            <span className="absolute text-black font-bold text-sm sm:text-base text-center pointer-events-none">
-              {student}
-            </span>
-          </motion.div>
-        );
-      })}
+    },
     {
       leftImage: aybars1,
       rightText: "29 ekim kutlamalarına katılmıştık ve sizin öğrettiğiniz şekilde gösteri yaptık. Aslında çok heyecanlıydım ama sizi karşımda görünce heyecanım geçti. Bana cesaret verdiğiniz için çok teşekkür ederim.",
