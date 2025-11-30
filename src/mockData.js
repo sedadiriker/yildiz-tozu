@@ -32,21 +32,45 @@ import rüya from "./assets/rüya.jpeg";
 import rüya1 from "./assets/rüya1.jpeg";
 import rüya2 from "./assets/rüya2.jpeg";
 import rüya3 from "./assets/rüya3.jpeg";
+import müberra from "./assets/müberra.jpeg";
+import müberra1 from "./assets/müberra1.jpeg";
+import müberra2 from "./assets/müberra2.jpeg";
+import müberra3 from "./assets/müberra3.jpeg";
+import aybars from "./assets/aybars.jpeg";
+import aybars1 from "./assets/aybars1.jpeg";
+import aybars2 from "./assets/aybars2.jpeg";
+import mehmetemir from "./assets/mehmetemir.jpeg";
+import mehmetemir1 from "./assets/mehmetemir1.jpeg";
+import mehmetemir2 from "./assets/mehmetemir2.jpeg";
+import mehmetemir3 from "./assets/mehmetemir3.jpeg";
+import mehmetemir4 from "./assets/mehmetemir4.jpeg";
+import mehmetemir5 from "./assets/mehmetemir5.png";
+import ala from "./assets/ala.jpeg";
+import ala1 from "./assets/ala1.jpeg";
+import ala2 from "./assets/ala2.jpeg";
+import ala3 from "./assets/ala3.jpeg";
+import ala4 from "./assets/ala4.jpeg";
+
 
 export const studentBooks = {
   "Ala Başkurt": [
     {
       gender: "female",
-      leftImage: "",
-      rightText: "",
+      image:ala,
+      leftImage: ala1,
+      rightText: "Okulun ilk günü sizinle tanıştığım için çok mutluydum ve bana öğreteceğiniz katacağınız herşey için  çok heyecanlıydım",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: ala2,
+      rightText: "Bana öğrettiğiniz herşey beni çok mutlu ediyor eğlendiriyor güler yüzlü oluşunuz bana yaklaşımınız bana güven veriyor iyi ki benim öğretmenim olmuşsunuz daha çok güzel günlerimiz olsun  ❤️❤️",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: ala3,
+      rightText: "Hayatıma  kattığınız değerler için teşekkür ederim öğretmenim Öğretmenler Gününüz kutlu olsun...",
+    },
+    {
+      leftImage: ala4,
+      rightText: "İyi ki varsınız Sizi çok seviyorum ❤️❤️",
     },
   ],
 
@@ -133,32 +157,42 @@ export const studentBooks = {
   "Mehmet Emir Çetin": [
     {
       gender: "male",
-      leftImage: "",
-      rightText: "",
+      image: mehmetemir,
+      leftImage: mehmetemir1,
+      rightText: "Okulumun ilk günü.. Öğretmenimle tanışmanın ilk heyecanı güzel bir seneyi sizinle paylaşacağım için çok çok mutluyum Tuba öğretmenim seni çok seviyorum...🥰",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: mehmetemir2,
+      rightText: "Minik kuş dostlarımıza hazırlık yapıyoruz! 🐦 Kışın onları beslemek için kozalakları tohumlarla buluşturdum. Hem öğreniyorum hem de doğaya yardım ediyorum. Sizin sayenizde öğrendim bunları...",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: mehmetemir3,
+      rightText: "Cumhuriyetimizin coşkusu, heyecanını yaşadım bugün! Kırmızı ve beyaza büründük, Ata'mızın bize emanet ettiği bu büyük bayramı kutladık.",
+    },
+    {
+      leftImage: mehmetemir4,
+      rightText: "Atatürk'ün gösterdiği yolda, öğretmenimin rehberliğinde yürüyorum. En anlamlı pozumuz bu özel günde çekildi. Minnettarız! 🙏",
+    },
+    {
+      leftImage: mehmetemir5,
+      rightText: "Öğretmenim, kediniz o kadar tatlı ki, onu da buraya eklemek istedim. Belki bir gün sevme şansımız olur...",
     },
   ],
 
   "Aybars Çetin": [
     {
       gender: "male",
-      leftImage: "",
-      rightText: "",
+      image: aybars,
+      leftImage: aybars,
+      rightText: "Merhaba öğretmenim sizin için arkadaşlarımla bir sürpriz hazırladık burda sizle ilgili duygularımı paylaşmak istiyorum ve öğretmenler gününüzü kutlamak istiyorum 😊",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: aybars1,
+      rightText: "29 ekim kutlamalarına katılmıştık ve sizin öğrettiğiniz şekilde gösteri yaptık. Aslında çok heyecanlıydım ama sizi karşımda görünce heyecanım geçti. Nana cesaret verdiğiniz için çok teşekkür ederim.",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: aybars2,
+      rightText: "Öğretmenim burda sizinle ilk fotoğrafım var benim icin cok özeldi.  Eğitim öğretim hayatımın ilk günüydü ve sizinle tanıştığıma cok mutluydum iyi ki benim ogretmenimsiniz bana kattığınız herşey icin çok teşekkür ederim Öğretmenler gününüz kutlu olsun canım öğretmenim 😊",
     },
   ],
 
@@ -231,16 +265,17 @@ export const studentBooks = {
   "Müberra Zişan Taşbulut": [
     {
       gender: "female",
-      leftImage: "",
-      rightText: "",
+      image: müberra,
+      leftImage: müberra1,
+      rightText: "Bir çocuğun kalbine dokunmak, dünyayı güzelleştirmenin en saf hâlidir. Kızımıza gösterdiğiniz ilgi, sevgi ve sabır için size minnettarız...",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: müberra2,
+      rightText: "İyi ki yollarımız kesişmiş, iyi ki onun öğretmenisiniz.",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: müberra3,
+      rightText: "Öğretmenler Gününüz kutlu olsun🎀💐",
     },
   ],
 
@@ -259,23 +294,7 @@ export const studentBooks = {
       rightText: "",
     },
   ],
-
-  "Kuzey Efe Çevik": [
-    {
-      gender: "male",
-      leftImage: "",
-      rightText: "",
-    },
-    {
-      leftImage: "",
-      rightText: "",
-    },
-    {
-      leftImage: "",
-      rightText: "",
-    },
-  ],
-
+  
   "Sude Zengin": [
     {
       gender: "female",
