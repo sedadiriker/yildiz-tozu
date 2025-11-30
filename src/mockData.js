@@ -50,6 +50,10 @@ import ala1 from "./assets/ala1.jpeg";
 import ala2 from "./assets/ala2.jpeg";
 import ala3 from "./assets/ala3.jpeg";
 import ala4 from "./assets/ala4.jpeg";
+import almira1 from "./assets/almira1.jpeg";
+import almira2 from "./assets/almira2.jpeg";
+import almira3 from "./assets/almira3.jpeg";
+
 
 
 export const studentBooks = {
@@ -77,16 +81,17 @@ export const studentBooks = {
   "Almira Baysal": [
     {
       gender: "female",
-      leftImage: "",
-      rightText: "",
+      image:almira1,
+      leftImage: almira1,
+      rightText: "Tuğba öğretmenim sizinle ilk tanıştığım gün, sizi tanıyacağım için çok heyecanlıydım. Ve sizi çok merak ediyordum. Sizi gördüğümde tanıştığımda o kadar çok mutlu oldum ki. Herkese sizi anlattım. Yaşasın artık benim de öğretmenim var. Hem de en güzel öğretmen...",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: almira2,
+      rightText: "Veee ilk bayramımız sizinle canım öğretmenim. Bana 29 ekimi Cumhuriyet bayramının anlam ve önemini öğrettiniz. Çok güzel bir gösteri hazırlattınız. Öğretmenim seninle öğrendiğim ve öğreneceğim her şey çok güzel olucak",
     },
     {
-      leftImage: "",
-      rightText: "",
+      leftImage: almira3,
+      rightText: "Atamızı andığımız gün… Bana ülkemizi kurtaran ve ülkemizin cumhuriyet kurucusunu tanıttınız. Öyle güzel anlattınız ki çok etkilendim ve sürekli Atatürk ölmedi kalbimizde yaşıyor diye etrafta dolandım. Sizinle beraber Kurucumuz Mustafa Kemal Atatürk’e bir karanfil bahşettim. Canım Tuğba öğretmenim bana o kadar güzel şeyler öğretiyorsun ki her gün daha da heyecanlanıyorum ve umutlu oluyorum. İyi ki benim ve arkadaşlarımın öğretmeni oldunuz. Sizi çok seviyorum Öğretmenler gününüz kutlu olsun Canım öğretmenim...",
     },
   ],
 
@@ -294,7 +299,7 @@ export const studentBooks = {
       rightText: "",
     },
   ],
-  
+
   "Sude Zengin": [
     {
       gender: "female",
