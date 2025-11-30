@@ -10,6 +10,7 @@ import eflin from "./assets/eflin.jpeg";
 import eflin1 from "./assets/eflin1.jpeg";
 import eflin2 from "./assets/eflin2.jpeg";
 import eflin3 from "./assets/eflin3.jpeg";
+import eflin4 from "./assets/eflin4.jpeg";
 import ece from "./assets/ece.jpeg";
 import ece1 from "./assets/ece1.jpeg";
 import ece2 from "./assets/ece2.jpeg";
@@ -54,7 +55,12 @@ import almira from "./assets/almira.jpeg";
 import almira1 from "./assets/almira1.jpeg";
 import almira2 from "./assets/almira2.jpeg";
 import almira3 from "./assets/almira3.jpeg";
-
+import metehan from "./assets/metehan.jpeg";
+import metehan1 from "./assets/metehan1.jpeg";
+import metehan2 from "./assets/metehan2.jpeg";
+import metehan3 from "./assets/metehan3.jpeg";
+import metehan4 from "./assets/metehan4.jpeg";
+import metehan5 from "./assets/metehan5.jpeg";
 
 
 export const studentBooks = {
@@ -116,15 +122,24 @@ export const studentBooks = {
   "Metehan Mehmet Sığanık": [
     {
       gender: "male",
-      leftImage: "",
+      image:metehan,
+      leftImage: metehan1,
+      rightText: `"Her öğrenci, öğretmeninin bir yansımasıdır." İyi ki benim  güler yüzlü biricik ögretmenimsin. 😍`,
+    },
+    {
+      leftImage: metehan2,
       rightText: "",
     },
     {
-      leftImage: "",
+      leftImage: metehan3,
       rightText: "",
     },
     {
-      leftImage: "",
+      leftImage: metehan4,
+      rightText: "",
+    },
+    {
+      leftImage: metehan5,
       rightText: "",
     },
   ],
@@ -157,6 +172,10 @@ export const studentBooks = {
     {
       leftImage: eflin3,
       rightText: "",
+    },
+    {
+      leftImage: eflin4,
+      rightText: "Seni çok seviyorum öğretmenim.. İyi ki benim öğretmenimsin...",
     },
   ],
 

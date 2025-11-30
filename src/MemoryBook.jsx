@@ -20,7 +20,7 @@ export default function MemoryBook() {
       const pos = {
         top: Math.random() * 70 + 15,
         left: isMobile
-          ? Math.random() * 60 + 20 // mobilde daha geniş merkez aralığı
+          ? Math.random() * 50 + 20 // mobilde daha geniş merkez aralığı
           : Math.random() * 70 + 15,
       };
 
